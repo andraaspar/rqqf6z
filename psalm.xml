@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<psalm
+	xmlns="https://getpsalm.org/schema/config"
+	errorLevel="1"
+	ignoreInternalFunctionFalseReturn="false"
+	ignoreInternalFunctionNullReturn="false"
+	cacheDirectory=".psalm-cache"
+	phpVersion="5.6"
+	findUnusedCode="false"
+>
+	<projectFiles>
+		<directory name="src"/>
+	</projectFiles>
+</psalm>
